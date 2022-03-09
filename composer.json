@@ -1,0 +1,21 @@
+{
+  "name": "victor/pooii",
+  "description": "Projeto POO II",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "Victor Hugo da Silva",
+      "email": "victor.hsilva@faex.edu.br"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Core\\" : "core",
+      "Sts\\" : "app/sts"
+    }
+  },
+  "require": {
+    "phpmailer/phpmailer": "^6.5"
+  }
+}
